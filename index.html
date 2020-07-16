@@ -1,21 +1,175 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="refresh" content="3">
+        <title>David Andrew Rice</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&family=Source+Code+Pro:wght@300;500&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+        <script src="https://kit.fontawesome.com/605c9bfe2c.js" crossorigin="anonymous"></script>
+    </head>
   <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
+
+    <nav class="navbar is-primary">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="" class="navbar-item" href="#" style="font-weight: bold; color: #123524;">
+            <img src="./img/ai-technu-logo.png" alt="">  
+            TechNU
+          </a>
+          <span class="navbar-burger burger" data-target="navMenu" style="color: #123524;">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#" class="navbar-item is-active">home</a>
+            <a href="#" class="navbar-item">projects</a>
+            <a href="#" class="navbar-item">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="title">
+            <p>Hi<br>I'm Dave</p>
+          </div>
+          <div class="landing-img">
+            <img src="./img/coding-hero-icon.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="bg">
+      <main class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <article class="tile is-child notification">
+                  <p class="title">Web Design</p>
+                  <p class="subtitle">Mobile First</p>
+                  <figure class="image is-4by3">
+                    <img src="./img/web-design-4.png">
+                  </figure>
+                  <div class="container lower-text has-text-centered">
+                    <p>
+                      Best User Experience
+                    </p>
+                    <p>
+                      No Fluff
+                    </p>
+                    <p>
+                      Optimal Functionality
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+  
+          <div class="column">
+              <div class="tile is-parent">
+                <article class="tile is-child notification">
+                  <p class="title">Landing</p>
+                  <p class="subtitle">Increase ROI</p>
+                  <figure class="image is-4by3">
+                    <img src="./img/landing-page-2.png">
+                  </figure>
+                  <div class="container lower-text has-text-centered">
+                    <p>
+                      Promotional Offers
+                    </p>
+                    <p>
+                      Generate Leads
+                    </p>
+                    <p>
+                      Marketing Data
+                    </p>
+                  </div>
+                </article>
+              </div>
+          </div>
+  
+          <div class="column">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Web Apps</p>
+                <p class="subtitle">Target Mobile</p>
+                <figure class="image is-4by3">
+                  <img src="./img/web-apps-1.png">
+                </figure>
+                <div class="container lower-text has-text-centered">
+                  <p>
+                    Easy to Customise
+                  </p>
+                  <p>
+                    Huge Savings
+                  </p>
+                  <p>
+                    Simple to Maintain
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    
+    <section class="skill-bg">
+      <div class="container has-text-centered">
+        <div class="skills">
+          <div class="skills-web">
+            <p class="title">Skills</p>
+            <i class="devicon-html5-plain-wordmark"></i>
+            <i class="devicon-css3-plain-wordmark"></i>
+            <i class="devicon-javascript-plain"></i>
+          </div>
+          <div class="skills-dev">
+            <i class="devicon-python-plain-wordmark"></i>
+            <i class="devicon-django-plain-wordmark"></i>
+            <i class="devicon-linux-plain"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>TechNU</strong> @money<a href="#">TechNU</a>. Make it so industries. <a href="#">MIS</a>.
+        </p>
+        <div class="social-media">
+          <a href="https://twitter.com/Dav1dAndrewR1ce">
+            <i class="devicon-twitter-plain"></i>
+          </a>
+          <a href="https://github.com/david-andrew-rice">
+            <i class="devicon-github-plain"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+
+        burger.addEventListener('click', function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
   </body>
 </html>

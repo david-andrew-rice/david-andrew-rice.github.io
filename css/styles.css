@@ -1,0 +1,100 @@
+/* nav section */
+.navbar-brand img{
+    padding-right: .5rem;
+}
+
+/* hero section  */
+
+
+.hero p {
+    font-weight: 300;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.landing-img img {
+    max-height: 5rem;
+}
+
+/* main section  */
+
+.bg {
+    padding: 3rem .5rem;
+    background: #00d1b2;
+}
+
+main p {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+main p:nth-child(2) {
+    font-style: italic;
+}
+
+main .title {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .column {
+    display: flex;
+    background: #fafafa;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.75);
+    margin: 1rem 2rem;
+}
+
+.lower-text {
+    padding: 2rem 0;
+}
+
+.lower-text p {
+    font-size: 1rem;
+}
+
+/* skills section */
+
+.skill-bg {
+    background: #fafafa;
+}
+
+.skills {
+    padding-top: 3rem;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.skills p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 1rem 2rem;
+}
+
+.skills i {
+    font-size: 6rem;
+    color: #123524;
+}
+
+.skills-dev {
+    padding: 3rem 0;
+}
+
+/* footer section */
+.footer {
+    background: #00d1b2;
+    width: 100%;
+}
+
+footer p {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-media i {
+    color: #123524;
+    padding: 2rem 1rem;
+    font-size: 2rem;
+}
